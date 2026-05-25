@@ -1,0 +1,236 @@
+# Framework de Gobernanza de Skills Analíticas
+# .gitignore - Archivos y carpetas a NO subir al repositorio
+
+# =======================================================================
+# DATOS SENSIBLES Y CONFIDENCIALES (NUNCA SUBIR)
+# =======================================================================
+
+# Archivos con datos reales de producción
+*_REAL.md
+*_REAL.json
+*_PRODUCCION.*
+*_CONFIDENCIAL.*
+datos_reales/
+produccion/
+confidencial/
+
+# Credenciales y configuraciones privadas
+config_privada/
+credentials/
+*.env
+.env.local
+.env.production
+secrets/
+api_keys/
+
+# Bases de datos con información real
+*.db
+*.sqlite
+*.sql
+backups_sql/
+dumps/
+
+# Archivos de Excel/CSV con datos empresariales
+datos_clientes/
+*_clientes.xlsx
+*_clientes.csv
+*_proveedores.*
+*_facturas.*
+*_nominas.*
+
+# =======================================================================
+# ARCHIVOS DEL SISTEMA OPERATIVO
+# =======================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# =======================================================================
+# ARCHIVOS TEMPORALES Y BACKUPS
+# =======================================================================
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+~$*
+
+# Backups de editores
+*.orig
+*.rej
+
+# Carpetas temporales
+temp/
+tmp/
+cache/
+
+# =======================================================================
+# EDITORES E IDEs
+# =======================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# =======================================================================
+# DEPENDENCIAS Y ENTORNOS VIRTUALES
+# =======================================================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =======================================================================
+# ARCHIVOS DE CONSTRUCCIÓN Y DISTRIBUCIÓN
+# =======================================================================
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Logs
+logs/
+*.log
+
+# =======================================================================
+# NOTAS PERSONALES Y BORRADORES
+# =======================================================================
+
+# Notas de trabajo personal
+NOTAS_PERSONALES.md
+TODO_PRIVADO.md
+borrador/
+notas_internas/
+ideas_privadas/
+
+# Archivos de prueba con datos sensibles
+test_con_datos_reales/
+pruebas_internas/
+
+# =======================================================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# =======================================================================
+
+# Skills con datos reales de TechAcces (NO anonimizadas)
+skills_techacces_real/
+SKILL_*_REAL.md
+
+# Modelos y diccionarios con datos de producción
+Diccionario_Medidas_DAX_TechAcces_REAL.json
+Schema_MySQL_TechAcces_REAL.json
+
+# Informes con datos confidenciales
+Informe_*_CONFIDENCIAL.*
+
+# =======================================================================
+# ARCHIVOS GRANDES (OPCIONAL - descomentar si es necesario)
+# =======================================================================
+
+# Archivos muy grandes que no deberían estar en el repo
+# *.zip
+# *.tar.gz
+# *.rar
+# *.7z
+# *.pdf (más de 10MB)
+# *.docx (más de 5MB)
+
+# =======================================================================
+# CONFIGURACIÓN DE GIT
+# =======================================================================
+
+# Ignorar cambios en archivos que sí están en el repo pero con modificaciones locales
+# (descomentar si necesitas mantener versiones locales diferentes)
+# config.json
+# settings.md
+
+# =======================================================================
+# EXCEPCIONES (archivos que SÍ deben subirse)
+# =======================================================================
+
+# Asegurar que estos archivos SÍ se suben aunque coincidan con patrones anteriores
+!.gitignore
+!LICENSE
+!README.md
+!CONTRIBUTING.md
+!CHANGELOG.md
+
+# Ejemplos y plantillas (aunque tengan "template" en el nombre, SÍ se suben)
+!*_template.md
+!ejemplo_*.md
+
+# =======================================================================
+# INSTRUCCIONES IMPORTANTES
+# =======================================================================
+
+# Este .gitignore protege:
+# 1. Datos sensibles de clientes/empresas
+# 2. Credenciales y configuraciones privadas
+# 3. Archivos temporales y de sistema
+# 4. Información financiera real
+#
+# ANTES DE SUBIR CUALQUIER ARCHIVO:
+# - Verifica que NO contenga datos reales
+# - Anonimiza nombres de empresas/personas
+# - Redondea cifras financieras
+# - Elimina credenciales de bases de datos
+#
+# Si tienes dudas sobre si un archivo debe subirse,
+# consulta con el mantenedor: jleonceo@gmail.com
