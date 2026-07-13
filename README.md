@@ -101,7 +101,7 @@ deshacer, más control humano**. Un análisis equivocado se repite; un borrado e
 ## El registro de decisiones
 
 Todo lo anterior se sostiene sobre una pieza aburrida y decisiva: cada cambio queda
-registrado con cuatro campos — qué cambió, por qué, qué evidencia lo motivó y qué se
+registrado con cuatro campos, qué cambió, por qué, qué evidencia lo motivó y qué se
 descartó. El cuarto campo es el que casi nadie escribe y el que más vale: dentro de tres
 meses, saber por qué NO hiciste algo evita repetir el debate entero.
 
@@ -124,6 +124,9 @@ hacer con cualquier cosa que no la tenga.
   aplicado a un enjambre de agentes, con sus 19 simulaciones y las caídas explicadas.
 - [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance): la misma
   filosofía aplicada a la memoria persistente del agente.
+- [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia): el enrutado multi-agente, cómo se decide a qué agente va cada petición sin romper al crecer.
+- [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia): la coherencia del estado comprobada por pura aritmética, sin IA.
+- [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web): qué es un asistente de IA, para quien empieza de cero.
 
 ---
 
