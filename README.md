@@ -1,4 +1,4 @@
-# gobernanza-skills-analiticas
+# Gobernar skills de IA que trabajan con datos reales
 
 Cómo gobernar skills de IA que trabajan con datos reales: el método que uso a diario,
 contado con los casos que lo fueron formando. Sin marcos teóricos. Cada regla de este
@@ -27,6 +27,11 @@ asientos descuadrados**. La partida doble, rota de golpe.
 De ese error salió la primera regla: ninguna operación compleja toca los datos sin una
 simulación previa. Y de los errores siguientes salieron las demás. Este repo es ese
 recorrido, ordenado.
+
+Las cifras de estos incidentes salen del registro interno del proyecto (una contabilidad
+ficticia sobre MySQL). Las partes medibles en abierto están en los repos que enlazo al
+final: el salto del 66% al 100% en [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable)
+y las 19 simulaciones en [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm).
 
 ## Las cinco reglas, con el caso que las parió
 
@@ -132,4 +137,4 @@ hacer con cualquier cosa que no la tenga.
 
 ---
 
-Construido por [Juan Luis León Rodríguez](https://juanluisleon.vercel.app) · mayo-junio 2026
+Construido por [Juan Luis León Rodríguez](https://juanluisleon.vercel.app) · mayo-julio 2026 · Licencia [CC BY-NC-SA 4.0](LICENSE)
