@@ -128,6 +128,7 @@ hacer con cualquier cosa que no la tenga.
 - [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia): la coherencia del estado comprobada por pura aritmética, sin IA.
 - [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web): qué es un asistente de IA, para quien empieza de cero.
 - [tesoreria-forecast-ia](https://github.com/jleonceo/tesoreria-forecast-ia): previsión de caja por descomposición con backtesting, más ratios y aging.
+- [control-interno-fraude-ia](https://github.com/jleonceo/control-interno-fraude-ia): detección de fraude contable con aritmética, dentro de un marco de control interno.
 
 ---
 
