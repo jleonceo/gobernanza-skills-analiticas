@@ -4,7 +4,7 @@ Cuatro campos por entrada. El formato importa menos que la disciplina de rellena
 todos, sobre todo el último.
 
 ```markdown
-## FECHA — Título del cambio
+## FECHA · Título del cambio
 
 **Qué cambió:** ficheros, versiones, reglas. Concreto, sin resumir de más.
 
@@ -28,7 +28,7 @@ reaparece), una línea de "descartado" lo cierra en un minuto.
 Sacado del registro del proyecto, tal cual se escribió (solo se acortan rutas):
 
 ```markdown
-## 09/06/2026 — Nóminas con embargo judicial: cuenta nueva
+## 09/06/2026 · Nóminas con embargo judicial: cuenta nueva
 
 **Qué cambió:** el generador contabiliza el embargo judicial de una nómina en una
 subcuenta nueva de 465 ("Embargos a favor de terceros"), creada en el plan de cuentas.
