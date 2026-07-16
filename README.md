@@ -133,6 +133,7 @@ hacer con cualquier cosa que no la tenga.
   aplicado a un enjambre de agentes, con sus 19 simulaciones y las caídas explicadas.
 - [agent-memory-governance](https://github.com/jleonceo/agent-memory-governance): la misma
   filosofía aplicada a la memoria persistente del agente.
+- [claude-code-context-management](https://github.com/jleonceo/claude-code-context-management): la misma disciplina aplicada a los ficheros de contexto (CLAUDE.md y MEMORY.md), para que no saturen el contexto de Claude Code.
 - [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia): el enrutado multi-agente, cómo se decide a qué agente va cada petición sin romper al crecer.
 - [verificacion-determinista-ia](https://github.com/jleonceo/verificacion-determinista-ia): la coherencia del estado comprobada por pura aritmética, sin IA.
 - [tu-primer-asistente-ia-web](https://github.com/jleonceo/tu-primer-asistente-ia-web): qué es un asistente de IA, para quien empieza de cero.
