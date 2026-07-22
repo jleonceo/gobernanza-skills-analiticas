@@ -37,7 +37,7 @@ ficticia sobre MySQL). Las partes medibles en abierto están en los repos que en
 final: el salto del 66% al 100% en [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable)
 y las 19 simulaciones en [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm).
 
-### Las cinco reglas, con el caso que las parió
+### Las cinco reglas y el caso que parió cada una
 
 #### 1. Medir antes de confiar
 
@@ -74,7 +74,7 @@ detectó de inmediato y se revirtió todo.
 La segunda fue más sutil. Cambié la respuesta esperada de un caso razonando "esta es la
 convención de cuentas". Sonaba bien. La base de datos demostró que la cuenta que yo había
 puesto no existía: había adaptado el examen al error del sistema, en vez de arreglar el
-sistema. También se revirtió, y el informe de aquel día lo documenta tal cual.
+sistema. También se revirtió. El informe de aquel día lo documenta tal cual.
 
 La puerta de no-regresión no te protege de amañar: para eso solo sirve preguntarse, ante
 cada cambio en un examen, *¿esto es criterio general o es la respuesta de este caso?*
@@ -174,7 +174,7 @@ books on MySQL). The parts that can be measured in the open are in the repos I l
 end: the jump from 66% to 100% in [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable)
 and the 19 simulations in [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm).
 
-### The five rules, with the case that gave birth to each
+### The five rules and the case that gave birth to each
 
 #### 1. Measure before you trust
 
@@ -211,7 +211,7 @@ everything was reverted.
 The second was subtler. I changed the expected answer of a case, reasoning "this is the
 account convention". It sounded right. The database proved that the account I had used did not
 exist: I had adapted the exam to the system's error, instead of fixing the system. It was
-reverted too, and that day's log documents it as it happened.
+reverted too. That day's log documents it as it happened.
 
 The no-regression gate does not protect you from rigging: for that, the only thing that works
 is asking, before every change to an exam, *is this general judgement, or is it the answer to
