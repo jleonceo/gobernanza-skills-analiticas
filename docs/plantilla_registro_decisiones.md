@@ -19,7 +19,7 @@ resultado de la puerta de no-regresión. Sin este campo, la entrada no vale.
 ## Por qué el campo "Descartado" es el que más vale
 
 Los tres primeros campos cuentan lo que hiciste. El cuarto cuenta lo que decidiste no
-hacer, y esa información no está en ningún otro sitio: ni en el código, ni en el diff,
+hacer. Esa información no está en ningún otro sitio: ni en el código, ni en el diff,
 ni en la memoria de nadie pasados tres meses. Cuando el mismo debate reaparece (y
 reaparece), una línea de "descartado" lo cierra en un minuto.
 
@@ -54,5 +54,5 @@ del IRPF, que se cerró en la misma sesión.
 ```
 
 Fíjate en lo que permite este registro: medio año después, cualquiera (humano o agente)
-puede saber no solo qué cuenta se usa para un embargo, sino por qué no se usan las otras
-tres candidatas. Esa es la diferencia entre una decisión y una costumbre.
+puede saber qué cuenta se usa para un embargo y por qué no se usan las otras tres
+candidatas. Esa es la diferencia entre una decisión y una costumbre.
