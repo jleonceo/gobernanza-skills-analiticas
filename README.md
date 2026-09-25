@@ -4,9 +4,7 @@
 
 ## Español
 
-El 23 de mayo de 2026 se lanzó una actualización masiva sobre la base contable de mi proyecto. Subía las ventas un 30 % sin tocar sus contrapartidas. De golpe, 2.449 de los 7.159 asientos quedaron descuadrados. Con los agentes de IA pasa lo mismo a otra escala: una skill que ayer acertaba puede equivocarse hoy sin dar ningún error. Estas cinco comprobaciones sirven para enterarte a tiempo. Las he escrito para quien construye skills o agentes que trabajan sobre datos reales, sea analista, desarrollador o responsable técnico. Salen de una contabilidad ficticia que llevo como controller financiero: TechAcces S.L., con datos sintéticos en MySQL, Power BI encima y agentes de Claude que proponen asientos.
-
-Las cifras de los casos salen del registro interno de ese proyecto, que no es público. Desde este repositorio no se pueden rehacer. Lo que sí se mide en abierto está en los repositorios enlazados al final.
+El 23 de mayo de 2026 se lanzó una actualización masiva sobre la base contable de mi proyecto. Subía las ventas un 30 % sin tocar sus contrapartidas. De golpe, 2.449 de los 7.159 asientos quedaron descuadrados. Con los agentes de IA pasa lo mismo a otra escala: una skill que ayer acertaba puede equivocarse hoy sin dar ningún error. Estas cinco comprobaciones sirven para enterarte a tiempo. Las he escrito para quien construye skills o agentes que trabajan sobre datos reales, sea analista, desarrollador o responsable técnico. Salen de una contabilidad ficticia que llevo como controller financiero: TechAcces S.L., con datos sintéticos en MySQL, Power BI encima y agentes de Claude que proponen asientos. Las cifras de los casos salen del historial privado de ese proyecto, así que desde este repositorio no se pueden rehacer. Lo que sí se mide en abierto está en los repositorios enlazados al final.
 
 ### Qué es una skill
 
@@ -103,9 +101,7 @@ El cuarto es el que casi nadie escribe. Es también el que más vale cuando, mes
 
 ## English
 
-On 23 May 2026 a bulk update ran against my project's accounting database. It raised sales by 30 % without touching the offsetting entries. In one go, 2,449 of the 7,159 journal entries fell out of balance. AI agents break the same way at a different scale: a skill that worked yesterday can get things wrong today without throwing a single error. The five checks below are how I catch that in time. I wrote them for anyone building skills or agents on real data, whether you're an analyst, a developer or a technical lead. They come from a fictional set of books I keep as a financial controller: TechAcces S.L., with synthetic data in MySQL, Power BI on top and Claude agents proposing journal entries.
-
-The figures in these cases come from that project's internal log, which is not public. They can't be recomputed from this repository. What can be measured in the open is in the repositories linked at the end.
+On 23 May 2026 a bulk update ran against my project's accounting database. It raised sales by 30 % without touching the offsetting entries. In one go, 2,449 of the 7,159 journal entries fell out of balance. AI agents break the same way at a different scale: a skill that worked yesterday can get things wrong today without throwing a single error. The five checks below are how I catch that in time. I wrote them for anyone building skills or agents on real data, whether you're an analyst, a developer or a technical lead. They come from a fictional set of books I keep as a financial controller: TechAcces S.L., with synthetic data in MySQL, Power BI on top and Claude agents proposing journal entries. The figures in these cases come from that project's private history, so they can't be recomputed from this repository. What can be measured in the open is in the repositories linked at the end.
 
 ### What a skill is
 
