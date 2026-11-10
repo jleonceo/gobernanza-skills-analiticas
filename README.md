@@ -20,7 +20,7 @@ Desde entonces cada medida nueva se cruza con una consulta SQL. Tiene que coinci
 
 Para montarlo en tu proyecto necesitas tres piezas. La primera son unos casos parecidos al trabajo real. La segunda, la respuesta esperada de cada uno, escrita antes de ver lo que contesta la skill. La tercera es un script que compare las dos y devuelva la nota, que te permitirá repetir el examen cada vez que toques algo.
 
-La batería tiene que poder suspender. Una que solo comprueba que lo bueno pasa sale en verde aunque la skill esté rota, y un verde que no puede ponerse en rojo no demuestra nada. Por eso cada batería lleva al menos un caso que tiene que salir en rojo, y de vez en cuando meto un error a propósito en lo que vigila para ver si lo detecta. Dos de los repositorios del final miden justo esto: [guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia) rompe los guardarraíles a propósito y [detector-control-negativo](https://github.com/jleonceo/detector-control-negativo) cuenta los bancos de pruebas que darían verde con el código roto.
+La batería tiene que poder suspender. Una que solo comprueba que lo bueno pasa sale en verde aunque la skill esté rota. Un verde que no puede ponerse en rojo no demuestra nada. Por eso cada batería lleva al menos un caso que tiene que salir en rojo, y de vez en cuando meto un error a propósito en lo que vigila para ver si lo detecta. Dos de los repositorios del final miden justo esto: [guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia) rompe los guardarraíles a propósito y [detector-control-negativo](https://github.com/jleonceo/detector-control-negativo) cuenta los bancos de pruebas que darían verde con el código roto.
 
 ### 2. La puerta de no-regresión
 

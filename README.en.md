@@ -20,7 +20,7 @@ Ever since, every new measure gets checked against a SQL query. It has to match 
 
 To set this up you need three pieces. First, a handful of cases that look like the real work. Second, the expected answer for each one, written before you see what the skill says. Third, a script that compares the two and returns a score, which lets you rerun the test whenever you touch something.
 
-The test set also has to be able to fail. One that only checks that good answers pass stays green with the skill broken, and a green that can't turn red proves nothing. That's why every set carries at least one case that must come out red, and why from time to time I plant a mistake on purpose in whatever the set guards, to see whether it catches it. Two of the repositories at the end measure exactly this: [guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia) breaks the guardrails on purpose, and [detector-control-negativo](https://github.com/jleonceo/detector-control-negativo) counts the test suites that would pass with the code broken.
+The test set also has to be able to fail. One that only checks that good answers pass stays green with the skill broken. A green that can't turn red proves nothing. That's why every set carries at least one case that must come out red, and why from time to time I plant a mistake on purpose in whatever the set guards, to see whether it catches it. Two of the repositories at the end measure exactly this: [guardianes-verificados-ia](https://github.com/jleonceo/guardianes-verificados-ia) breaks the guardrails on purpose, and [detector-control-negativo](https://github.com/jleonceo/detector-control-negativo) counts the test suites that would pass with the code broken.
 
 ### 2. The no-regression gate
 
