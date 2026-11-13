@@ -12,6 +12,17 @@ Una skill es un fichero de texto en Markdown que un agente de IA lee antes de tr
 
 Van en el orden en que se las aplico a una skill, desde que la escribo hasta que la dejo trabajar sola.
 
+```mermaid
+flowchart TD
+    S[Skill nueva] --> C1[1. Medir antes de confiar<br/>examen con respuestas fijadas antes]
+    C1 --> C2[2. Puerta de no-regresión<br/>lo que ya funcionaba sigue funcionando]
+    C2 --> C3[3. El examen que no se amaña<br/>¿criterio general o respuesta de un caso?]
+    C3 --> C4[4. Verificador independiente<br/>quien revisa no es quien hizo]
+    C4 --> C5[5. Autonomía según lo reversible]
+    C5 --> T[La skill trabaja sola<br/>en lo que se puede deshacer]
+    style T fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
+```
+
 ### 1. Medir antes de confiar
 
 Una medida DAX de mi panel de Power BI daba +2.571.241,27 €. El resultado correcto, ventas menos gastos, era +322.957,19 €. La medida sumaba solo el debe del grupo 6 e ignoraba el haber, que es donde van las devoluciones y los descuentos. El panel cargaba. La cifra parecía razonable, así que a simple vista nada indicaba que estuviera mal.

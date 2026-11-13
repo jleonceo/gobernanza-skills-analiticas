@@ -12,6 +12,17 @@ A skill is a Markdown file that an AI agent reads before it starts work. It give
 
 They're listed in the order I apply them to a skill, from the day I write it to the day I let it run on its own.
 
+```mermaid
+flowchart TD
+    S[New skill] --> C1[1. Measure before you trust<br/>test set with answers fixed beforehand]
+    C1 --> C2[2. Non-regression gate<br/>what already worked still works]
+    C2 --> C3[3. The test that cannot be gamed<br/>general rule or answer to one case?]
+    C3 --> C4[4. Independent verifier<br/>the reviewer is not the maker]
+    C4 --> C5[5. Autonomy by reversibility]
+    C5 --> T[The skill works on its own<br/>on what can be undone]
+    style T fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
+```
+
 ### 1. Measure before you trust
 
 A DAX measure in my Power BI dashboard returned +€2,571,241.27. The right figure, sales minus expenses, was +€322,957.19. The measure added up only the debit side of account group 6 and ignored the credits, which is where returns and discounts sit. The dashboard loaded. The number looked plausible, so nothing on screen hinted at a problem.
