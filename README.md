@@ -13,13 +13,19 @@ Una skill es un fichero de texto en Markdown que un agente de IA lee antes de tr
 Van en el orden en que se las aplico a una skill, desde que la escribo hasta que la dejo trabajar sola.
 
 ```mermaid
-flowchart TD
-    S[Skill nueva] --> C1[1. Medir antes de confiar<br/>examen con respuestas fijadas antes]
-    C1 --> C2[2. Puerta de no-regresión<br/>lo que ya funcionaba sigue funcionando]
-    C2 --> C3[3. El examen que no se amaña<br/>¿criterio general o respuesta de un caso?]
-    C3 --> C4[4. Verificador independiente<br/>quien revisa no es quien hizo]
-    C4 --> C5[5. Autonomía según lo reversible]
-    C5 --> T[La skill trabaja sola<br/>en lo que se puede deshacer]
+flowchart LR
+    S[Skill<br/>nueva] --> G1
+    subgraph G1[Comprobaciones 1 a 3]
+        direction TB
+        C1[1. Medir antes de confiar<br/>examen con respuestas fijadas antes] --> C2[2. Puerta de no-regresión<br/>lo que ya funcionaba sigue funcionando]
+        C2 --> C3[3. El examen que no se amaña<br/>¿criterio general o respuesta de un caso?]
+    end
+    subgraph G2[Comprobaciones 4 y 5]
+        direction TB
+        C4[4. Verificador independiente<br/>quien revisa no es quien hizo] --> C5[5. Autonomía según lo reversible]
+    end
+    G1 --> G2
+    G2 --> T[La skill trabaja sola<br/>en lo que se<br/>puede deshacer]
     style T fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
 ```
 

@@ -13,13 +13,19 @@ A skill is a Markdown file that an AI agent reads before it starts work. It give
 They're listed in the order I apply them to a skill, from the day I write it to the day I let it run on its own.
 
 ```mermaid
-flowchart TD
-    S[New skill] --> C1[1. Measure before you trust<br/>test set with answers fixed beforehand]
-    C1 --> C2[2. Non-regression gate<br/>what already worked still works]
-    C2 --> C3[3. The test that cannot be gamed<br/>general rule or answer to one case?]
-    C3 --> C4[4. Independent verifier<br/>the reviewer is not the maker]
-    C4 --> C5[5. Autonomy by reversibility]
-    C5 --> T[The skill works on its own<br/>on what can be undone]
+flowchart LR
+    S[New<br/>skill] --> G1
+    subgraph G1[Checks 1 to 3]
+        direction TB
+        C1[1. Measure before you trust<br/>test set with answers fixed beforehand] --> C2[2. Non-regression gate<br/>what already worked still works]
+        C2 --> C3[3. The test that cannot be gamed<br/>general rule or answer to one case?]
+    end
+    subgraph G2[Checks 4 and 5]
+        direction TB
+        C4[4. Independent verifier<br/>the reviewer is not the maker] --> C5[5. Autonomy by reversibility]
+    end
+    G1 --> G2
+    G2 --> T[The skill works<br/>on its own on what<br/>can be undone]
     style T fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
 ```
 
