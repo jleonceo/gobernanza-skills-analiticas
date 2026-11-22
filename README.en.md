@@ -101,7 +101,7 @@ The fourth is the one almost nobody fills in. It's also the most valuable when, 
 ### Evaluating skills and agents
 
 - [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable) · eval-driven development of an accounting skill with 50 cases, from 66 % to 100 % in six iterations, reproducible with the bundled grader
-- [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm) · four agents for bookkeeping with a test set, grader, no-regression gates and an independent verifier; scores 93.3 out of 100 with zero false positives
+- [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm) · five agents for bookkeeping with a test set, grader, no-regression gates and an independent verifier; its four-agent version scored 79.4 out of 100 in the last full measurement, July 2026
 - [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia) · routing across several agents, blind-evaluated, 15 out of 15
 
 ### Verifying with code

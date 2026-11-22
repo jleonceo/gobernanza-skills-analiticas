@@ -101,7 +101,7 @@ El cuarto es el que casi nadie escribe. Es también el que más vale cuando, mes
 ### Evaluar skills y agentes
 
 - [llm-eval-contable](https://github.com/jleonceo/llm-eval-contable) · desarrollo guiado por evaluaciones de una skill contable con 50 casos, del 66 % al 100 % en seis iteraciones, reproducible con el corrector incluido
-- [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm) · cuatro agentes para contabilidad con batería de casos, corrector, puertas de no-regresión y verificador independiente; nota de 93,3 sobre 100 con cero falsos positivos
+- [accounting-agent-swarm](https://github.com/jleonceo/accounting-agent-swarm) · cinco agentes para contabilidad con batería de casos, corrector, puertas de no-regresión y verificador independiente; su versión de cuatro agentes sacó 79,4 sobre 100 en la última medición completa, de julio de 2026
 - [orquestacion-enjambres-ia](https://github.com/jleonceo/orquestacion-enjambres-ia) · enrutado entre varios agentes evaluado a ciegas, 15 de 15
 
 ### Verificar con código
